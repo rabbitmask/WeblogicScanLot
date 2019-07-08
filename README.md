@@ -40,11 +40,11 @@
         CVE-2017-10271 
         
 	V 2.1更新日志：
-    系列重新定义为WeblogicScanLot版本。
-    新增大量成熟POC，与V1.3保持一致。
-    同样新版本完全舍弃Python2。
-    日志功能重构，更加健壮实用。
-    Kill旧版本window下多进程适应性BUG
+        系列重新定义为WeblogicScanLot版本。
+        新增大量成熟POC，与V1.3保持一致。
+        同样新版本完全舍弃Python2。
+        日志功能重构，更加健壮实用。
+        Kill旧版本window下多进程适应性BUG
 
 
     【软件使用Demo】
