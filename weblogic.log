@@ -1,0 +1,14 @@
+2019-07-08 21:11:48,385 [+]The target Weblogic console address is exposed! The path is: http://127.0.0.1:7001/console/login/LoginForm.jsp Please try weak password blasting!
+2019-07-08 21:11:48,385 [+]The target Weblogic UDDI module is exposed! The path is: http://127.0.0.1:7001/uddiexplorer/ Please verify the SSRF vulnerability!
+2019-07-08 21:11:48,385 [-]CVE_2016_0638 not detected.
+2019-07-08 21:11:48,385 [-]CVE_2016_3510 not detected.
+2019-07-08 21:11:48,385 [-]CVE_2017_3248 not detected.
+2019-07-08 21:11:51,024 [-]Target weblogic not detected CVE-2017-3506
+2019-07-08 21:11:51,044 [-]Target weblogic not detected CVE-2017-10271
+2019-07-08 21:11:51,044 [-]CVE_2018_2628 not detected.
+2019-07-08 21:11:51,044 [-]CVE_2018_2893 not detected.
+2019-07-08 21:11:51,054 [-]Target weblogic not detected CVE-2018-2894
+2019-07-08 21:11:51,563 [+]The target weblogic has a JAVA deserialization vulnerability:CVE-2019-2725
+2019-07-08 21:11:51,753 [+]Your current permission is:rabbitmask\rabbitmask
+2019-07-08 21:11:54,062 [+]The target weblogic has a JAVA deserialization vulnerability:CVE-2019-2729
+2019-07-08 21:11:54,062 [+]Your current permission is:  rabbitmask\rabbitmask
