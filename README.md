@@ -2,7 +2,7 @@
     免责声明：Pia!(ｏ ‵-′)ノ”(ノ﹏<。)
     本工具仅用于安全测试，请勿用于非法使用，要乖哦~
         
-    V2.1简介：
+    V2.2简介：
     提供weblogic批量检测功能，收录几乎全部weblogic历史漏洞。
     【没有遇到过weblogic批量检测工具的小朋友举起你的爪爪！】
 
@@ -45,6 +45,10 @@
         同样新版本完全舍弃Python2。
         日志功能重构，更加健壮实用。
         Kill旧版本window下多进程适应性BUG
+	
+	V 2.2更新日志：
+	日志输出重做，之前的版本迁移导致日志并不适合作为批量扫描结果，
+	希望这次改动可以满足各位要求，如有bug issue继续安排~感谢！
 
 
     【软件使用Demo】
@@ -58,7 +62,7 @@
 	  \ V  V /  __/ |_) | | (_) | (_| | | (__   ___) | (_| (_| | | | |
 	   \_/\_/ \___|_.__/|_|\___/ \__, |_|\___| |____/ \___\__,_|_| |_|
 	                             |___/
-	                             By Tide_RabbitMask | V 2.1
+	                             By Tide_RabbitMask | V 2.2
 
 
 	Welcome To WeblogicScan !!!
@@ -75,19 +79,20 @@
 	#日志文件：
     =========================================================================
 	
-	2019-07-08 21:11:48,385 [+]The target Weblogic console address is exposed! The path is: http://127.0.0.1:7001/console/login/LoginForm.jsp Please try weak password blasting!
-	2019-07-08 21:11:48,385 [+]The target Weblogic UDDI module is exposed! The path is: http://127.0.0.1:7001/uddiexplorer/ Please verify the SSRF vulnerability!
-	2019-07-08 21:11:48,385 [-]CVE_2016_0638 not detected.
-	2019-07-08 21:11:48,385 [-]CVE_2016_3510 not detected.
-	2019-07-08 21:11:48,385 [-]CVE_2017_3248 not detected.
-	2019-07-08 21:11:51,024 [-]Target weblogic not detected CVE-2017-3506
-	2019-07-08 21:11:51,044 [-]Target weblogic not detected CVE-2017-10271
-	2019-07-08 21:11:51,044 [-]CVE_2018_2628 not detected.
-	2019-07-08 21:11:51,044 [-]CVE_2018_2893 not detected.
-	2019-07-08 21:11:51,054 [-]Target weblogic not detected CVE-2018-2894
-	2019-07-08 21:11:51,563 [+]The target weblogic has a JAVA deserialization vulnerability:CVE-2019-2725
-	2019-07-08 21:11:51,753 [+]Your current permission is:rabbitmask\rabbitmask
-	2019-07-08 21:11:54,062 [+]The target weblogic has a JAVA deserialization vulnerability:CVE-2019-2729
-	2019-07-08 21:11:54,062 [+]Your current permission is:  rabbitmask\rabbitmask
+	2019-07-28 14:57:48,702 [+]127.0.0.1:7001 console address is exposed! The path is: http://127.0.0.1:7001/console/login/LoginForm.jsp Please try weak password blasting!
+	2019-07-28 14:57:48,717 [+]127.0.0.1:7001 UDDI module is exposed! The path is: http://127.0.0.1:7001/uddiexplorer/ Please verify the SSRF vulnerability!
+	2019-07-28 14:57:48,717 [-]127.0.0.1:7001 not detected CVE_2016_0638.
+	2019-07-28 14:57:48,717 [-]127.0.0.1:7001 not detected CVE_2016_3510.
+	2019-07-28 14:57:48,717 [-]127.0.0.1:7001 not detected CVE_2017_3248.
+	2019-07-28 14:57:48,725 [-]127.0.0.1:7001 not detected CVE-2017-3506.
+	2019-07-28 14:57:48,731 [-]127.0.0.1:7001 not detected CVE-2017-10271.
+	2019-07-28 14:57:48,731 [-]127.0.0.1:7001 not detected CVE_2018_2628.
+	2019-07-28 14:57:48,731 [-]127.0.0.1:7001 not detected CVE_2018_2893.
+	2019-07-28 14:57:48,735 [-]127.0.0.1:7001 not detected CVE-2018-2894.
+	2019-07-28 14:57:48,914 [+]127.0.0.1:7001 has a JAVA deserialization vulnerability:CVE-2019-2725.
+	2019-07-28 14:57:49,133 [+]And your current permission is:rabbitmask\rabbitmask.
+	2019-07-28 14:57:51,356 [+]127.0.0.1:7001 has a JAVA deserialization vulnerability:CVE-2019-2729.
+	2019-07-28 14:57:51,356 [+]And your current permission is:rabbitmask\rabbitmask.
+
 
 	=========================================================================
