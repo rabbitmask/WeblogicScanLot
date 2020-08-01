@@ -1,3 +1,5 @@
+# 项目停止维护，批量扫描功能合并至https://github.com/rabbitmask/WeblogicScan
+
     软件作者：Tide_RabbitMask
     免责声明：Pia!(ｏ ‵-′)ノ”(ノ﹏<。)
     本工具仅用于安全测试，请勿用于非法使用，要乖哦~
